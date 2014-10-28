@@ -44,5 +44,19 @@ RRRR
 OOOOOOOOOOO
 OOOO
 
+Scenario: 27 minutes
+When the time is 7:27:02
+Then the clock should look like
+Y
+ROOO
+RROO
+YYRYYOOOOOO
+YYOO
 
-
+Scenario: late afternoon
+When the time is 17:44:03
+O
+RRRO
+RROO
+YYRYYRYYOOO
+YYYY

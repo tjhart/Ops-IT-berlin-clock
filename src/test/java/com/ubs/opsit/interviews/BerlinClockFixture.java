@@ -15,7 +15,7 @@ import static org.junit.Assert.assertThat;
  */
 public class BerlinClockFixture {
 
-    private TimeConverter berlinClock;
+    private TimeConverter berlinClock = new BerlinClock();
     private String theTime;
 
     @Test
